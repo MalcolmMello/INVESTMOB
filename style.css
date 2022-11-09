@@ -1,0 +1,39 @@
+nav {
+    background-color: rgb(25,25,25);
+}
+.logo {
+    color: #FC4800;
+}
+
+.logo:hover {
+    color: #FC4800;
+}
+
+.section-01-bg {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 13%, rgba(17,17,17,1) 50%, rgba(34,34,34,1) 71%);
+}
+
+.section-01 {
+    height: calc(100vh - 56px);
+    color: #FC4800;
+}
+
+.section-02 {
+    height: 100vh;
+}
+
+.section-02-first {
+    height: 40%;
+}
+.section-01 button {
+    background-color: #FC4800;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: all ease 0.2s
+}
+
+.section-01 button:hover {
+    background-color: #f85b1c;
+    border: 1px solid #fff;
+}
