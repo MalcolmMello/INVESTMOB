@@ -19,13 +19,6 @@ nav {
     color: #FC4800;
 }
 
-.section-02 {
-    height: 100vh;
-}
-
-.section-02-first {
-    height: 40%;
-}
 .section-01 button {
     background-color: #FC4800;
     color: #fff;
@@ -36,4 +29,32 @@ nav {
 .section-01 button:hover {
     background-color: #f85b1c;
     border: 1px solid #fff;
+}
+
+.section-02 {
+    height: 100vh;
+}
+
+.section-02-first {
+    height: 40%;
+}
+
+.section-03 {
+    min-height: 100vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 13%, rgba(17,17,17,1) 50%, rgba(34,34,34,1) 71%);
+}
+
+
+.section-03-title {
+    height: 100px;
+}
+
+.article {
+    cursor: pointer;
+}
+
+.article:hover {
+    background: rgb(0,0,0); 
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(17,17,17,1) 39%, rgba(67,28,14,1) 55%, rgba(107,38,11,1) 67%, rgba(147,47,8,1) 79%, rgba(195,58,4,1) 87%, rgba(252,72,0,1) 93%);
 }
