@@ -54,7 +54,39 @@ nav {
     cursor: pointer;
 }
 
+.article-light {
+    cursor: pointer;
+}
+
 .article:hover {
     background: rgb(0,0,0); 
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(17,17,17,1) 39%, rgba(67,28,14,1) 55%, rgba(107,38,11,1) 67%, rgba(147,47,8,1) 79%, rgba(195,58,4,1) 87%, rgba(252,72,0,1) 93%);
+}
+
+.article-light:hover {
+    background: #fff; 
+    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 39%, rgb(196, 105, 73) 55%, rgb(192, 77, 32) 67%, rgb(212, 81, 28) 79%, rgba(195,58,4,1) 87%, rgba(252,72,0,1) 93%);
+}
+
+.section-04 {
+    min-height: 60vh;
+}
+
+.contcss {
+    height: 60vh;
+}
+
+.footer {
+    color: #fff;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.7231267507002801) 0%, rgb(26, 25, 25) 74%);
+}
+
+.articles a {
+    text-decoration: none;
+    color: #fff
+}
+
+.articles a:hover {
+    color: #fff;
 }
