@@ -32,7 +32,7 @@ nav {
 }
 
 .section-02 {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .section-02-first {
@@ -80,6 +80,7 @@ nav {
     color: #fff;
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,0.7231267507002801) 0%, rgb(26, 25, 25) 74%);
+    margin-top: 100px;
 }
 
 .articles a {
@@ -89,4 +90,59 @@ nav {
 
 .articles a:hover {
     color: #fff;
+}
+
+.inflation {
+    max-height: 55vh;
+}
+
+@media (max-width: 1000px) {
+    .img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .inflation {
+        max-height: 65vh;
+    }
+}
+
+@media (max-width: 760px) {
+    .first-section {
+        align-items: center;
+        text-align: center;
+    }
+
+    .img2 {
+        display: none;
+    }
+
+    .responsive {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .card-responsive {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 540px) {
+    .inflation {
+        max-height: 85vh;
+    }
+
+    .img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 360px) {
+    .inflation {
+        max-height: 95vh;
+    }
 }

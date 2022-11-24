@@ -24,7 +24,7 @@
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="index.html">Página Inicial</a>
+                                <a class="nav-link " aria-current="page" href="index.html">Página Inicial</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="conceitos.html">Conceitos Básicos</a>
@@ -45,80 +45,125 @@
         </div>
     </div>
     <main>
-        <div class="container-fluid p-5 section-01-bg" style="min-height: 100vh;">
+        <div class="container-fluid p-0 section-01-bg">
             <div class="container">
-                <section style="color: #fff">
-                    <div>
-                        <h1 style="color: #FC4800;" class="display-6 text-center">Aprenda o que são Juros</h1>
-                        <p class="text-center" style="color: darkgray;">Os juros podem ser seu pior inimigo, ou o seu melhor amigo, veja mais durante o artigo</p>
-                    </div>
-                    <div class="d-flex justify-content-center align-content-center">
-                        <img src="./assets/juros-compostos.webp" alt="Ilustração Inicial" class="mt-3" style="height: 500px; width: 990px; object-fit: cover;">
-                    </div>
-                    <div style="font-size: 20px; font-weight: 300;" class="mt-5 d-flex justify-content-center align-content-center">
-                        <div class="d-flex justify-content-center align-content-center flex-column">
-                            <p style="max-width: 990px;">
-                                Os juros são o que o cliente pagará a mais – ou receberá – por uma operação financeira como empréstimo ou que envolva algum 
-                                tipo de crédito. No caso dos cartões de crédito, por exemplo, existe a cobrança de juros se houver atraso no pagamento.
-                                Neste artigo você verá:
-                            </p>
-                            <ul>
-                                <li>Juros Simples</li>
-                                <li>Juros Compostos</li>
-                                <li>Calculadoras de Juros</li>
-                            </ul>
+                <section class="row p-0 section-01">
+                    <div class="col-md-6 d-flex justify-content-center flex-column first-section">
+                        <h4 class="w-75 m-0 display-6">O poder dos juros</h4>
+                        <div class="text-secondary w-75 fw-semibold mt-3">
+                            Os juros são a arma que você pode se utilizar para fazer com que seu dinheiro renda
+                            mais do que a inflação. Ou seja, você pode preservar o seu poder de compra, e viver
+                            de renda passiva no futuro, fazendo seu dinheiro trabalhar para você, ao invés de você
+                            trabalhar por dinheiro.
                         </div>
                     </div>
-                    <div class="d-flex justify-content-center align-content-center">
-                        <div style="max-width: 990px; font-weight: 300; font-size: 20px;">
-                            <h3 class="display-6 mb-4" style="color: #FC4800;">Juros nos investimentos</h3>
-                            <p>
-                                Os investimentos são um tipo de empréstimo com juros – você, ao investir seu dinheiro, o empresta para uma instituição financeira 
-                                e recebe juros por isso, que são os rendimentos do investimento. Cada uma das operações de crédito, seja investimento ou empréstimos,
-                                oferece uma taxa de juros diferente. Os juros de um empréstimo pessoal, por exemplo, são bem diferentes de um financiamento imobiliário.
-                                Os juros pagos pela poupança também são diferentes dos oferecidos por um CDB.
+                    <div class="col-md-6 d-flex align-items-center justify-content-center">
+                        <img class="img" src="https://img.icons8.com/ios-filled/400/fc4800/accounting.png"/>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="container-fluid p-0">
+            <div class="container inflation">
+                <section class="section-02 d-flex flex-column mt-5">
+                    <div class="row section-02-first">
+                        <div class="col-md-8 responsive">
+                            <h3 class="w-75 m-0 display-6">O que são juros simples?</h3>
+                            <div class="w-75 mt-3" style="color: #36414d;">
+                                Geralmente, os juros simples pagos ou recebidos durante um determinado período são 
+                                uma porcentagem fixa do valor do principal que foi emprestado ou investido. Dois bons 
+                                exemplos de empréstimos com juros simples são os empréstimos para aquisição de veículos 
+                                e os juros devidos sobre linhas de crédito, como cartões de crédito.
+                                Por exemplo, uma pessoa fez um empréstimo de R$18.000 a taxa de juros anual de 6%. 
+                                O empréstimo será pago em três anos. <br />
+                                A quantidade de juros simples pagos será o valor do empréstimo (R$18 mil), multiplicado 
+                                pelos juros (6%) e pelo número de anos (três). O valor total dos juros pagos será de 
+                                R$3.240 (R $18.000 x 0.06 x 3).
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex align-items-center justify-content-center">
+                            <img class="img img2" src="https://img.icons8.com/external-sbts2018-outline-sbts2018/400/fc4800/external-economy-economy1-sbts2018-outline-sbts2018.png"/>
                         </div>
                     </div>
-                    <div class="d-flex justify-content-center align-content-center">
-                        <div style="max-width: 990px; font-weight: 300; font-size: 20px;">
-                            <h3 class="display-6 mb-4" style="color: #FC4800;">Juros Simples</h3>
-                            <p>
-                                Geralmente, os juros simples pagos ou recebidos durante um determinado período são uma porcentagem fixa do valor do principal que foi emprestado 
-                                ou investido. Dois bons exemplos de empréstimos com juros simples são os empréstimos para aquisição de veículos e os juros devidos sobre linhas de crédito, 
-                                como cartões de crédito. <br />
-                                Por exemplo, uma pessoa fez um empréstimo de R $18.000 a taxa de juros anual de 6%. O empréstimo será pago em três anos.
-                                A quantidade de juros simples pagos será o valor do empréstimo (R$18 mil), multiplicado pelos juros (6%) e pelo número de anos (três). <br />
-                                O valor total dos juros pagos será de R$3.240 (R$18.000 x 0.06 x 3). <br />
-                                Fórmula matemática (juros simples): <br />
-                                M= C × i × t <br />
-                                M= montante; C = capital inicial; i = taxa de juros; t = tempo da aplicação.
-                            </p>
+                </section>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#FC4800" fill-opacity="1" d="M0,288L34.3,288C68.6,288,137,288,206,261.3C274.3,235,343,181,411,176C480,171,549,213,617,202.7C685.7,192,754,128,823,138.7C891.4,149,960,235,1029,261.3C1097.1,288,1166,256,1234,224C1302.9,192,1371,160,1406,144L1440,128L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+            </svg>
+        </div>
+        <div class="container-fluid p-2 section-03">
+            <div class="container" >
+                <section class="section-02 d-flex flex-column mt-5 justify-content-around">
+                    <div class="row section-02-first">
+                        <div class="col-md-6 responsive">
+                            <h3 class="w-75 m-0 display-6" style="color: #FC4800">O que são juros compostos?</h3>
+                            <div class="text-secondary fw-semibold w-75 mt-3">
+                                Os juros compostos atuam sobre o valor principal da operação já corrigido com juros. Por exemplo: Um investimento com juros compostos de 6% a cada mês, significa que você receberá mais a cada mês. No primeiro mês, o seu retorno será 6% sobre o valor inicial. No segundo mês, será 6% sobre o valor inicial + o rendimento do primeiro mês. Por exemplo: se você começou com R $1.000,00, ao final do primeiro mês receberá 6% sobre esse valor – ou seja, R $60. No segundo mês, receberá 6% sobre R $1.060,00, valor já acrescido de juros. <br />
+
+                            </div>
+                        </div>
+                        <div class="col-md-6 responsive">
+                            <h3 class="w-75 m-0 display-6" style="color: #FC4800">Influência do tempo</h3>
+                            <div class="text-secondary fw-semibold w-75 mt-3">
+                                A maior diferença entre os juros simples e compostos é a influência do tempo. Olhando para a fórmula de juros compostos, é possível notar que a frequência dos períodos pode ter um grande efeito sobre os ganhos ou sobre o quanto você precisará pagar em juros. Quanto mais tempo (períodos compostos), mais juros são acumulados.
+                                O impacto dos juros compostos pode ser visto depois de longos períodos. Ou seja: quanto mais tempo você deixar seu dinheiro em um investimento com juros compostos, mais dinheiro você ganhará <br />
+                                Veja nossa calculadora de juros compostos em: <a href="">Calculadora</a>.
+                            </div>
                         </div>
                     </div>
-                    <div class="d-flex justify-content-center align-content-center">
-                        <div style="max-width: 990px; font-weight: 300; font-size: 20px;">
-                            <h3 class="display-6 mb-4" style="color: #FC4800;">Juros Compostos</h3>
-                            <p>
-                                Os juros compostos geralmente são fatores importantes nas transações comerciais, investimentos ou produtos financeiros. Estão normalmente ligados a itens que se 
-                                estendem por vários períodos ou anos. Eles são somados e adicionados aos juros acumulados de períodos anteriores. Em outras palavras, os juros compostos são juros
-                                sobre juros. <br />
-                                Por exemplo: se você começou com R $1.000,00, ao final do primeiro mês receberá 6% sobre esse valor – ou seja, R $60. No segundo mês, receberá 6% sobre R $1.060,00, 
-                                valor já acrescido de juros. <br />
-                                A maior diferença entre os juros simples e compostos é a influência do tempo. Olhando para a fórmula de juros compostos, é possível notar que a frequência dos períodos 
-                                pode ter um grande efeito sobre os ganhos ou sobre o quanto você precisará pagar em juros. Quanto mais tempo (períodos compostos), mais juros são acumulados. <br />
-                                O impacto dos juros compostos pode ser visto depois de longos períodos. Ou seja: quanto mais tempo você deixar seu dinheiro em um investimento com juros compostos, mais dinheiro você ganhará. <br />
-                                Fórmula matemática (juros compostos): <br />
-                                M = C (1 + i)t <br />
-                                M= montante; C= capital inicial; i= taxa de juros; t= tempo
-                            </p>
+                    <div class="row">
+                        <div class="col-md-4 d-flex card-responsive mt-5">
+                            <div class="card" style="width: 18rem; background-color: transparent; border: 1px solid #FC4800;">
+                                <img 
+                                    src="https://img.icons8.com/ios/100/fc4800/debt.png"
+                                    class="card-img-top w-50 m-auto p-3 cardimg"
+                                    alt="inflação"
+                                />
+                                <div class="card-body text-light">
+                                    <h4 class="text-center">Ganhos exponenciais</h4>
+                                    <p class="card-text">Com os juros compostos, seus ganhos sempre crescerão mês após mês.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex card-responsive mt-5">
+                            <div class="card" style="width: 18rem; background-color: transparent; border: 1px solid #FC4800;">
+                                <img 
+                                    src="https://img.icons8.com/dotty/100/fc4800/credit-card-contactless.png"
+                                    class="card-img-top w-50 m-auto p-3"
+                                    alt="inflação"
+                                />
+                                <div class="card-body text-light">
+                                    <h4 class="text-center">Seu maior aliado é o tempo</h4>
+                                    <p class="card-text">Quanto mais tempo os juros renderem sobre juros, maior será seu retorno à longo prazo</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex card-responsive mt-5">
+                            <div class="card" style="width: 18rem; background-color: transparent; border: 1px solid #FC4800;">
+                                <img 
+                                src="https://img.icons8.com/ios-filled/100/fc4800/banknotes.png"
+                                    class="card-img-top w-50 m-auto p-3 cardimg" 
+                                    alt="inflação"
+                                />
+                                <div class="card-body text-light">
+                                    <h4 class="text-center">Quanto mais você tem, mais voce terá</h4>
+                                    <p class="card-text">Acumule riqueza apenas se organizando financeiramente, e deixando o tempo agir.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="d-flex justify-content-center align-content-center mt-3">
-                        <div style="max-width: 990px; font-weight: 300;">
-                            <h3 class="display-6" style="color: #FC4800;">Artigos recomendados:</h3>
-                            <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+                </section>
+            </div>
+        </div>
+        <div class="container-fluid p-0">
+            <div class="container">
+                <section class="section-02 d-flex flex-column mt-5">
+                    <div class="container-fluid p-0 mt-4">
+                        <div class="container">
+                            <h3 class="display-6" >Artigos recomendados:</h3>
+                            <div class="row row-cols-1 row-cols-md-2 g-4 mt-4 row-cols-lg-2">
                                 <div class="col" style="color: #fff; height: 100%;">
-                                    <a href="conceitos.html" class="card bg-dark article" style="height: 100%; text-decoration: none; color: #fff;">
+                                    <a href="conceitos.html" class="card bg-light article-light" style="height: 100%; text-decoration: none; color: #000;">
                                         <img src="./assets/section3img3.jpg" style="max-height: 100px; object-fit: cover;" class="card-img-top" alt="...">
                                         <div class="card-body">
                                         <h5 class="card-title">Conceitos Básicos</h5>
@@ -130,7 +175,7 @@
                                     </a>
                                 </div>
                                 <div class="col" style="height: 100%; color: #fff;max-height: 260px">
-                                    <a href="rendafixa.html" class="card bg-dark article" style="height: 100%; text-decoration: none; color: #fff;">
+                                    <a href="rendafixa.html" class="card bg-light article-light" style="height: 100%; text-decoration: none; color: #000;">
                                         <img src="./assets/img1.jpg" style="max-height: 100px; object-fit: cover;" class="card-img-top" alt="...">
                                         <div class="card-body">
                                         <h5 class="card-title">Renda Fixa</h5>
@@ -141,12 +186,12 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="col" style="height: 100%; color: #fff;max-height: 260px">
-                                    <a href="rendavariavel.html" class="card bg-dark article" style="height: 100%; text-decoration: none; color: #fff;">
+                                <div class="col" style="height: 100%;max-height: 260px">
+                                    <a href="rendavariavel.html" class="card bg-light article-light" style="height: 100%; text-decoration: none; color: #000;">
                                         <img src="./assets/section3img4.jpg" style="max-height: 100px; object-fit: cover;" class="card-img-top" alt="...">
                                         <div class="card-body">
                                         <h5 class="card-title">Renda Variável</h5>
-                                        <p class="card-text" style="height: 96px;">
+                                        <p class="card-text responsive-card" style="height: 96px;">
                                             Saiba como se expor a ativos de Renda Váriavel, que à longo prazo podem te gerar
                                             retornos enormes sobre seus investimentos, como ações e fundos.
                                         </div>
