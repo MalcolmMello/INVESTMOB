@@ -128,6 +128,10 @@ nav {
     .card-responsive {
         justify-content: center;
     }
+
+    .contact {
+        text-align: center;
+    }
 }
 
 @media (max-width: 540px) {
@@ -138,6 +142,15 @@ nav {
     .img{
         width: 200px;
         height: 200px;
+    }
+
+    .contact-area img {
+        height: 24px;
+        width: 24px;
+    }
+
+    .contact-area p {
+        font-size: 14px;
     }
 }
 
