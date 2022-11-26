@@ -107,6 +107,12 @@ nav {
     }
 }
 
+@media (max-width: 780px) {
+    .calc-response {
+        flex-direction: column;
+    }
+}
+
 @media (max-width: 760px) {
     .first-section {
         align-items: center;
