@@ -9,7 +9,7 @@ function calculo() {
     let totalInvestido = valor_inicial + (valor_mensal * valor_anos * 12);
 
     for(let i = 0; i < valor_anos * 12; i++) {
-        let juros_mes = calc*juros_mensais;
+        let juros_mes = valor_total*juros_mensais;
         valor_total += juros_mes;
         valor_total += valor_mensal;
     }
